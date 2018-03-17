@@ -238,7 +238,7 @@ function gameover() {
     //游戏结束时 会有花瓣飘落
     $(document).snowfall('clear');
     $(document).snowfall({
-        image: "花瓣/images/huaban.png",
+        image: "images/huaban.png",
         flakeCount: 50,
         minSize: 5,
         maxSize: 20
@@ -395,7 +395,7 @@ Undo.onclick = function (e) {
 
 // Initialization................................................
 //初始化画背景
-image.src = 'gobang.png';
+image.src = 'images/gobang.png';
 image.onload = function () {
     context.drawImage(image,0,0,canvas.width,canvas.height);
     offcontext.drawImage(image,0,0,canvas.width,canvas.height);
